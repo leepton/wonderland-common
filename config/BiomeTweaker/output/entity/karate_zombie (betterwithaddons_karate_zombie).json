@@ -1,0 +1,6 @@
+
+{
+  "Name": "karate_zombie",
+  "Registry ID": "betterwithaddons:karate_zombie",
+  "Class": "betterwithaddons.entity.EntityKarateZombie"
+}

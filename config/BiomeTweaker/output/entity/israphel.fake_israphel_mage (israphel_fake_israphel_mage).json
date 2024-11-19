@@ -1,0 +1,6 @@
+
+{
+  "Name": "israphel.fake_israphel_mage",
+  "Registry ID": "israphel:fake_israphel_mage",
+  "Class": "com.github.alexmaclean.israphel.entities.FakeIsraphelMageEntity"
+}

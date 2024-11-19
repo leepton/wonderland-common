@@ -1,0 +1,276 @@
+{
+	"populate": {
+		"copper": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:copper_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 8
+			},
+			"cluster-count": 20,
+			"min-height": 5,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"tin": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:tin_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 5
+			},
+			"cluster-count": 17,
+			"min-height": 5,
+			"max-height": 55,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"uranium": {
+			"distribution": "uniform",
+			"generator": {
+				"type": "sparse-cluster",
+				"block": "contenttweaker:uranium_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 16,
+			"min-height": 5,
+			"max-height": 65,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"silver": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:silver_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 3
+			},
+			"cluster-count": 8,
+			"min-height": 5,
+			"max-height": 65,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"iridium": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:iridium_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 1
+			},
+			"cluster-count": 1,
+			"min-height": 5,
+			"max-height": 256,
+			"retrogen": "true",
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"bauxite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:bauxite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 16
+			},
+			"cluster-count": 10,
+			"min-height": 50,
+			"max-height": 120,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": ["PLAINS", "FOREST"]
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"ruby": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:ruby_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "HOT"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"sapphire": {
+			"distribution": "cave",
+			"generator": {
+				"block": "contenttweaker:sapphire_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 3,
+			"min-height": 0,
+			"max-height": 48,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "temperature",
+						"entry": "OCEAN"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"sheldonite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:sheldonite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 2
+			},
+			"cluster-count": 10,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "JUNGLE"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"cassiterite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:cassiterite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 20
+			},
+			"cluster-count": 2,
+			"min-height": 10,
+			"max-height": 30,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "COLD"
+					},
+					{
+						"type": "dictionary",
+						"entry": "CONIFEROUS"
+					},
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "MUSHROOM"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"tetrahedrite": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:tetrahedrite_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 6
+			},
+			"cluster-count": 10,
+			"min-height": 20,
+			"max-height": 70,
+			"retrogen": "true",
+			"biome": {
+				"restriction": "whitelist",
+				"value": [
+					{
+						"type": "dictionary",
+						"entry": "JUNGLE"
+					},
+					{
+						"type": "dictionary",
+						"entry": "MOUNTAIN"
+					},
+					{
+						"type": "dictionary",
+						"entry": "SWAMP"
+					}
+				]
+			},
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		},
+		"galena": {
+			"distribution": "uniform",
+			"generator": {
+				"block": "contenttweaker:galena_ore",
+				"material": "minecraft:stone",
+				"cluster-size": 9
+			},
+			"cluster-count": 12,
+			"min-height": 0,
+			"max-height": 64,
+			"retrogen": "true",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [-1, 1]
+			}
+		}
+	}
+}

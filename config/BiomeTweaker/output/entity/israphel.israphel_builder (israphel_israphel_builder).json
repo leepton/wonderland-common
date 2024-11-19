@@ -1,0 +1,6 @@
+
+{
+  "Name": "israphel.israphel_builder",
+  "Registry ID": "israphel:israphel_builder",
+  "Class": "com.github.alexmaclean.israphel.entities.IsraphelBuilderEntity"
+}

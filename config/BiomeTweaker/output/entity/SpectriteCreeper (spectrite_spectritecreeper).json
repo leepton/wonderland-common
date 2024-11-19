@@ -1,0 +1,6 @@
+
+{
+  "Name": "SpectriteCreeper",
+  "Registry ID": "spectrite:spectritecreeper",
+  "Class": "com.samuel.spectrite.entities.EntitySpectriteCreeper"
+}
