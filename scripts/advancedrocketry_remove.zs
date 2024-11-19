@@ -31,8 +31,8 @@ recipes.replaceAllOccurences(<libvulpes:productgem>, <ic2:itemmisc:258>);
 recipes.replaceAllOccurences(<libvulpes:productdust>, <minecraft:glowstone_dust>);
 recipes.replaceAllOccurences(<libvulpes:productsheet:9>, <gtclassic:aluminium_plate>);
 recipes.replaceAllOccurences(<libvulpes:productsheet:6>, <gtclassic:steel_plate>);
-recipes.replaceAllOccurences(<libvulpes:coil0:9>, <gtclassic:fusion>, item);
-recipes.replaceAllOccurences(<libvulpes:coil0:4>, <gtclassic:fusion>, item);
+recipes.replaceAllOccurences(<libvulpes:coil0:9>, <gtclassic:fusion>);
+recipes.replaceAllOccurences(<libvulpes:coil0:4>, <gtclassic:fusion>);
 
 var itemsToRemove = [
 

@@ -51,7 +51,7 @@ recipes.addShaped(<buildcraftsilicon:plug_pulsar> * 2, [[null, <gtclassic:redsto
 
 //distillery
 recipes.remove(<buildcraftfactory:distiller>);
-recipes.addShaped(<buildcraftfactory:distiller>, [[null, <betterwithmods:material:27>, null], [<buildcraftsilicon:plug_pulsar>, <buildcraftfactory:tank>, <buildcraftsilicon:plug_pulsar>], [<buildcraftfactory:tank>, <gtclassic:steel_gear>, <buildcraftfactory:tank>]]);
+recipes.addShaped(<buildcraftfactory:distiller>, [[null, <gtc_expansion:constantan_heating_coil>, null], [<buildcraftsilicon:plug_pulsar>, <buildcraftfactory:tank>, <buildcraftsilicon:plug_pulsar>], [<buildcraftfactory:tank>, <gtclassic:steel_gear>, <buildcraftfactory:tank>]]);
 
 //laser
 
