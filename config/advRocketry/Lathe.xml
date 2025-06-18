@@ -1,0 +1,291 @@
+<!-->
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	XML recipes are being DEPRECATED soon.
+	This means that recipes registered via the XML for MACHINES will no longer work
+	To avoid issues that may arise from this, please either distribute a RESOURCE PACK
+	with relevant JSON recipes OR user Craft tweaker + Advanced rocketry tweaker (3rd party)
+	https://minecraft.curseforge.com/projects/advanced-rocketry-tweaker
+	
+	IMPORTANT NOTICE TO MODPACK MAKERS!!!!
+	
+	
+	<Recipe timeRequired="NUMBER" power="NUMBER">
+		<input>
+			<fluidStack>FLUID NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+        </input>
+		<output>
+			<fluidStack>FLUID_NAME;SIZE</fluidStack>
+			<itemStack>ITEM_NAME;SIZE;META</itemStack>
+			<oreDict>OREDICT_NAME;SIZE</oreDict>
+		</output>
+	</Recipe>
+	
+	Can have Multiple In/Outputs
+	Some Machines can only Accept either Fluids or Items
+	
+	timeRequired="NUMBER"	how long a Recipe takes, Unit is in Ticks.
+	power="NUMBER" how much Power the Recipes takes per Tick. Unit is in RF.
+	
+	The "useDefault" attribute will prevent loading of recipes if set to "false"
+<!-->
+<Recipes useDefault="true">
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmiridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:osmiridium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBrass</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:brass_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTechnetium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:technetium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:iron_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotPlatinum</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:platinum_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungsten</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:tungsten_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotLead</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:lead_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitanium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:titanium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotChrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:chrome_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotCopper</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:copper_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotBronze</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:bronze_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotGold</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:gold_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumAluminide</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAntimony</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:antimony_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotAluminium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:aluminium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:steel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotZinc</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:zinc_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotElectrum</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:electrum_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotOsmium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:osmium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotSilver</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:silver_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotStainlessSteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:stainlesssteel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTin</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:tin_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotWroughtIron</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:refinediron_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotInvar</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:invar_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNickel</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:nickel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotRedAlloy</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:redalloy_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:iridium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotMagnalium</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:magnalium_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTungstensteel</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:tungstensteel_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotNichrome</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:nichrome_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotConstantan</oreDict>
+		</input>
+		<output>
+			<itemStack>gtclassic:constantan_stick;2</itemStack>
+		</output>
+	</Recipe>
+	<Recipe timeRequired="300" power ="20">
+		<input>
+			<oreDict>ingotTitaniumIridium</oreDict>
+		</input>
+		<output>
+			<itemStack>advancedrocketry:productrod;2;1</itemStack>
+		</output>
+	</Recipe>
+</Recipes>
