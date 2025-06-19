@@ -31,48 +31,5 @@
 	
 	The "useDefault" attribute will prevent loading of recipes if set to "false"
 <!-->
-<Recipes useDefault="true">
-	<Recipe timeRequired="12000" power ="1">
-		<input>
-			<itemStack>minecraft:sand</itemStack>
-		</input>
-		<output>
-			<itemStack>gtclassic:silicon_ingot</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="3000" power ="20">
-		<input>
-			<itemStack>gtclassic:iridium_ingot</itemStack>
-			<itemStack>gtclassic:titanium_ingot</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:productingot;2;1</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="9000" power ="20">
-		<input>
-			<itemStack>gtclassic:aluminium_ingot;7</itemStack>
-			<itemStack>gtclassic:titanium_ingot;3</itemStack>
-		</input>
-		<output>
-			<itemStack>advancedrocketry:productingot;3</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="6000" power ="1">
-		<input>
-			<itemStack>minecraft:coal;1;1</itemStack>
-			<itemStack>minecraft:iron_ingot</itemStack>
-		</input>
-		<output>
-			<itemStack>gtclassic:steel_ingot</itemStack>
-		</output>
-	</Recipe>
-	<Recipe timeRequired="100" power ="10">
-		<input>
-			<oreDict>oreRutile</oreDict>
-		</input>
-		<output>
-			<itemStack>libvulpes:productingot;1;7</itemStack>
-		</output>
-	</Recipe>
+<Recipes useDefault="false">
 </Recipes>
