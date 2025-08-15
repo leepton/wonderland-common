@@ -9,8 +9,6 @@ var itemsToRemove = [
 <ic2:itemdynamites>,
 <ic2:itemdynamites:1>,
 
-<ic2:blockmachinehv:2>,
-<ic2:blockmachinehv:6>,
 <ic2:itemportableteleporter>,
 
 <ic2c_extras:copperplate>,
